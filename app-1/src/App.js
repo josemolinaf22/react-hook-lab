@@ -4,8 +4,6 @@ import List from "./components/List";
 import AddTodo from "./components/AddTodo";
 import "./App.css";
 
-// const data = ["shopping", "cleaning", "oil change"];
-
 function App() {
   const [todos, setTodos] = useState(["shopping", "cleaning", "oil change"]);
 
